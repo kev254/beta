@@ -11,14 +11,14 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="@dimen/img_width"
-            android:layout_height="@dimen/img_height"
-            android:src="@drawable/donate"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/gas"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/accommodation"
+            android:text="@string/gas"
             android:textColor="#E91E63"
             android:textSize="@dimen/slide_title"
             android:textStyle="bold"/>
@@ -28,7 +28,7 @@
             android:layout_marginTop="20dp"
             android:paddingLeft="@dimen/desc_padding"
             android:paddingRight="@dimen/desc_padding"
-            android:text="@string/find_your_dream_accommodation_today_search_and_compare_hundreds_of_accommodation_options_near_you"
+            android:text="@string/gas_desc"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="@dimen/slide_desc"

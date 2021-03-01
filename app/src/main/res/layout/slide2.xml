@@ -11,14 +11,14 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="@dimen/img_width"
-            android:layout_height="@dimen/img_height"
-            android:src="@drawable/materials"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/market"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Donate"
+            android:text="@string/comrades_market"
             android:textColor="#3F51B5"
             android:textSize="@dimen/slide_title"
             android:textStyle="bold"/>
@@ -28,7 +28,7 @@
             android:layout_marginTop="20dp"
             android:paddingLeft="@dimen/desc_padding"
             android:paddingRight="@dimen/desc_padding"
-            android:text="@string/buy_refill_gas_online_and_get_it_delivered_at_your_doorstep_immediately"
+            android:text="@string/markect_desc"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="@dimen/slide_desc"
@@ -37,5 +37,4 @@
 
 
     </LinearLayout>
-
 </RelativeLayout>

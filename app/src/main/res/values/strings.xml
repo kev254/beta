@@ -1,14 +1,12 @@
 <resources>
-    <string name="app_name">Endelevu2</string>
-    <string name="comrades_market">Materials for re-use</string>
-    <string name="buy_and_sell_goods_and_services_online_to_university_students_around_the_country">Do you have construction materials or
-        building furnishings you don’t need but don’t want to throw away? Post a listing to Endelevu to find someone who can make use of
-        what you don’t need.</string>
-    <string name="buy_refill_gas_online_and_get_it_delivered_at_your_doorstep_immediately">We welcome you to donate your surplus,
-        recyclable or re-usable materials to our charity projects which help renovate or upgrade school and hospitals in low-income communities. For donation acceptance, please email photos, dimensions and model</string>
-    <string name="accommodation">Find a re-use match</string>
-    <string name="find_your_dream_accommodation_today_search_and_compare_hundreds_of_accommodation_options_near_you">Looking for construction
-        materials that might be available for reuse in your area? Members of the Endelevu can list material available as well as material needed.</string>
+    <string name="app_name">eComrade</string>
+    <string name="app_desc">eComrade platform is an online platform that offers its users a convenient way to buy or sell both new and  used items, get timely updates on events happening around them and find suitable accommodation within their locality.</string>
+    <string name="comrades_market">Comrade Market</string>
+    <string name="markect_desc">
+        Buy and sell goods and services online to university students around the country</string>
+    <string name="gas">Buy/Refill Gas</string>
+    <string name="gas_desc">
+        Buy refill gas online and get it delivered at your doorstep immediately</string>
     <string name="skip">Skip</string>
     <string name="next">Next</string>
     <string name="start">Start</string>

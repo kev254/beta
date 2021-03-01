@@ -11,14 +11,14 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="@dimen/img_width"
-            android:layout_height="@dimen/img_height"
-            android:src="@drawable/match"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/ecomlogo"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/comrades_market"
+            android:text="@string/app_name"
             android:textColor="#9C27B0"
             android:textSize="@dimen/slide_title"
             android:textStyle="bold"/>
@@ -28,14 +28,14 @@
             android:layout_marginTop="20dp"
             android:paddingLeft="@dimen/desc_padding"
             android:paddingRight="@dimen/desc_padding"
-            android:text="@string/buy_and_sell_goods_and_services_online_to_university_students_around_the_country"
+            android:text="@string/app_desc"
             android:textAlignment="center"
-            android:textColor="@android:color/black"
             android:textSize="@dimen/slide_desc"
             android:gravity="center_horizontal" />
 
 
 
     </LinearLayout>
+
 
 </RelativeLayout>
